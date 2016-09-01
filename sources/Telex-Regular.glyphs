@@ -10263,7 +10263,7 @@ instances = (
 {
 customParameters = (
 {
-name = compatibleFullName;
+name = postscriptFullName;
 value = Telex;
 }
 );
