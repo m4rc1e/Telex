@@ -10261,6 +10261,12 @@ width = 709;
 disablesAutomaticAlignment = 1;
 instances = (
 {
+customParameters = (
+{
+name = compatibleFullName;
+value = Telex;
+}
+);
 instanceInterpolations = {
 UUID0 = 1;
 };
