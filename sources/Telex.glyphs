@@ -1,6 +1,6 @@
 {
 .appVersion = "919";
-copyright = "Copyright (c) 2011 Andres Torresi (info@andrestorresi.com.ar), with Reserved Font Name \"Telex\"";
+copyright = "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar)";
 customParameters = (
 {
 name = licenseURL;
@@ -17,9 +17,13 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 name = fsType;
 value = 0;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
-date = "2016-09-01 09:31:08 +0000";
+date = "2016-09-14 12:54:27 +0000";
 designer = "Andres Torresi";
 designerURL = "http://www.andrestorresi.com.ar";
 familyName = Telex;
@@ -108,6 +112,7 @@ value = 945;
 );
 descender = -245;
 id = UUID0;
+weightValue = 400;
 xHeight = 514;
 }
 );
@@ -1047,7 +1052,7 @@ unicode = 004A;
 },
 {
 glyphname = Jcircumflex;
-lastChange = "2016-09-01 09:24:55 +0000";
+lastChange = "2016-09-14 12:49:02 +0000";
 layers = (
 {
 components = (
@@ -10256,6 +10261,27 @@ nodes = (
 width = 709;
 }
 );
+},
+{
+glyphname = NULL;
+lastChange = "2016-09-14 12:35:06 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 0;
+}
+);
+},
+{
+glyphname = CR;
+lastChange = "2016-09-14 12:54:27 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 250;
+}
+);
+unicode = 000D;
 }
 );
 disablesAutomaticAlignment = 1;
@@ -10264,7 +10290,11 @@ instances = (
 customParameters = (
 {
 name = postscriptFullName;
-value = Telex;
+value = "Telex Regular";
+},
+{
+name = compatibleFullName;
+value = "Telex Regular";
 }
 );
 instanceInterpolations = {
