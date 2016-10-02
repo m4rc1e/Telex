@@ -1,5 +1,5 @@
 {
-.appVersion = "919";
+.appVersion = "924";
 copyright = "Copyright 2011 The Telex Project Authors (info@andrestorresi.com.ar)";
 customParameters = (
 {
@@ -16,7 +16,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = 0;
+value = (
+);
 },
 {
 name = "Use Typo Metrics";
@@ -7385,6 +7386,17 @@ width = 250;
 unicode = 00A0;
 },
 {
+glyphname = CR;
+lastChange = "2016-09-14 12:54:27 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 250;
+}
+);
+unicode = 000D;
+},
+{
 glyphname = .notdef;
 lastChange = "2016-09-01 09:24:55 +0000";
 layers = (
@@ -10264,39 +10276,19 @@ width = 709;
 },
 {
 glyphname = NULL;
-lastChange = "2016-09-14 12:35:06 +0000";
+lastChange = "2016-10-02 13:45:58 +0000";
 layers = (
 {
 layerId = UUID0;
 width = 0;
 }
 );
-},
-{
-glyphname = CR;
-lastChange = "2016-09-14 12:54:27 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 250;
-}
-);
-unicode = 000D;
+unicode = 0000;
 }
 );
 disablesAutomaticAlignment = 1;
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Telex Regular";
-},
-{
-name = compatibleFullName;
-value = "Telex Regular";
-}
-);
 instanceInterpolations = {
 UUID0 = 1;
 };
